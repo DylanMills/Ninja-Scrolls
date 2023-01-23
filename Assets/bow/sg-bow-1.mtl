@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Standard
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.690196 0.690196 0.690196
+Ks 0.012549 0.012549 0.012549
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump Untitled 2.png
+map_Kd Untitled 2.png
+
+newmtl Subdivision_Surface
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump Subdivision_Surface.1Surface_Color.tif
+map_Kd Subdivision_Surface.1Surface_Color.tif
