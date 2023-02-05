@@ -5,16 +5,16 @@ Shader Demonstration in Ninja Scrolls
 ## Description
 
 For this Shader Demo, I spent countless hours fine-tuning the colors/shaders to get the most aesthetic scene possible.
-[]I started with my sample-scene which was essentially empty and was just for gameplay-testing.
-[]I brought in a "Nuketown" model for the level since it is highly simple, iconic, and versatile in how it can be portrayed.
-[]I spent hours trying to figure out how to get the desired Toon Shading effect using URP Shader Graphs and following that,
-[]I began to work on setting win conditions.
-[]I decided that for the showcasing of several different shaders, I would swap the materials on the moving spherical targets that the player has to destroy. 
-[]I completed some more shaders using URP and then I got to work on set-dressing. 
-[]I made the terrain more dynamic rather than just flat, and I used a modified grass prefab brush to flesh out the organic feel of the map.
-[]After that the last thing to focus on was the color adjustment. 
-[]When I tried implementing the post-processing using the LUTs and Shader, I struggled to find a good way of implementing it into my URP scene.
-[]I decided to use an alternative method which uses the Volume Component where I could modify all the values in the inspector.
+[ ]I started with my sample-scene which was essentially empty and was just for gameplay-testing.
+[ ]I brought in a "Nuketown" model for the level since it is highly simple, iconic, and versatile in how it can be portrayed.
+[ ]I spent hours trying to figure out how to get the desired Toon Shading effect using URP Shader Graphs and following that,
+[ ]I began to work on setting win conditions.
+[ ]I decided that for the showcasing of several different shaders, I would swap the materials on the moving spherical targets that the player has to destroy. 
+[ ]I completed some more shaders using URP and then I got to work on set-dressing. 
+[ ]I made the terrain more dynamic rather than just flat, and I used a modified grass prefab brush to flesh out the organic feel of the map.
+[ ]After that the last thing to focus on was the color adjustment. 
+[ ]When I tried implementing the post-processing using the LUTs and Shader, I struggled to find a good way of implementing it into my URP scene.
+[ ]I decided to use an alternative method which uses the Volume Component where I could modify all the values in the inspector.
 
 ## Author
 
