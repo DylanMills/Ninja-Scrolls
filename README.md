@@ -3,9 +3,10 @@
 Shader Demonstration in Ninja Scrolls
 
 ## Description
- Markup : -List
-For this Shader Demo, I spent countless hours fine-tuning the colors/shaders to get the most aesthetic scene possible.
-- I started with my sample-scene which was essentially empty and was just for gameplay-testing.
+ Markup : 
+
+-For this Shader Demo, I spent countless hours fine-tuning the colors/shaders to get the most aesthetic scene possible.
+-I started with my sample-scene which was essentially empty and was just for gameplay-testing.
 -I brought in a "Nuketown" model for the level since it is highly simple, iconic, and versatile in how it can be portrayed.
 -I spent hours trying to figure out how to get the desired Toon Shading effect using URP Shader Graphs and following that,
 -I began to work on setting win conditions.
