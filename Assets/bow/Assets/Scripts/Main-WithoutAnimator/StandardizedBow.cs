@@ -698,12 +698,14 @@ public class StandardizedBow : MonoBehaviour
 
     #region PROJECTILE - OBJECT POOLING
     void ProjectileObjectPool()
-    {      
+    {
+        //DYLAN DYLAN
+        return;  
         // Object pooling process of the projectiles on the first frame of the scene
         projectilePool = new Queue<GameObject>();
         for (int i = 0; i < projectilePoolSize; i++)
         {
-            lastProjectile = Instantiate<GameObject>(projectile, poolHolderTrans);
+           // lastProjectile = Instantiate<GameObject>(projectile, poolHolderTrans);
             lastProjectileScript = lastProjectile.GetComponent<StandardizedProjectile>();
             lastProjectileScript.bowScript = this;
             lastProjectileScript.rigid = lastProjectile.GetComponent<Rigidbody>();
@@ -716,7 +718,7 @@ public class StandardizedBow : MonoBehaviour
     // Add an extra projectile to the pool when needed.
     void AddExtraProjectileToPool()
     {
-        lastProjectile = Instantiate<GameObject>(projectile, poolHolderTrans);        
+      //  lastProjectile = Instantiate<GameObject>(projectile, poolHolderTrans);        
         lastProjectileScript = lastProjectile.GetComponent<StandardizedProjectile>();
         lastProjectileScript.bowScript = this;
         lastProjectileScript.rigid = lastProjectile.GetComponent<Rigidbody>();
