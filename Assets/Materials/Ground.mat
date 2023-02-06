@@ -33,6 +33,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Base_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -104,6 +108,7 @@ Material:
     - _Smoothness: 1000
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.8
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
@@ -111,7 +116,7 @@ Material:
     - _Ambient_Color: {r: 0.7735849, g: 0.6823603, b: 0.6823603, a: 0}
     - _Base_COlor: {r: 0.024968728, g: 0.16037738, b: 0.015886439, a: 0}
     - _Base_Color: {r: 0.025023727, g: 0.11320752, b: 0.050980393, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.043387335, g: 0.23584908, b: 0.10418065, a: 1}
     - _Diffuse_Color: {r: 0.06720316, g: 0.8509804, b: 0.019607853, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_Color: {r: 0, g: 1, b: 0.030314207, a: 0}
