@@ -1,4 +1,4 @@
-# Ninja Scrolls | Graphics Individual Assignment 1
+# Ninja Scrolls | Graphics Group Assignment 1
 
 Shader Demonstration in Ninja Scrolls
 
@@ -15,6 +15,8 @@ Shader Demonstration in Ninja Scrolls
 - After that the last thing to focus on was the color adjustment. 
 - When I tried implementing the post-processing using the LUTs and Shader, I struggled to find a good way of implementing it into my URP scene.
 - I decided to use an alternative method which uses the Volume Component where I could modify all the values in the inspector.
+- I adjusted the Cel-Shader so that the material is able to cast and receive shadows.
+- I added wisps particles floating around the scene.
 
 ## Author
 
