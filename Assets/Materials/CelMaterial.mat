@@ -24,7 +24,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 8617d7068b0c982439d72b2f3d752364, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -87,6 +87,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - MAIN_LIGHT_CALCULATE_SHADOWS: 0
     - _Ambient_Strength: 0.1
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -99,12 +100,15 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Lighting_Cutoff: 0.2
+    - _MAIN_LIGHT_SHADOWS_CASCADE: 0
+    - _MAIN_LIGHT_SHADOWS_CASCADE_1: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SHADOWS_SOFT: 0
     - _ShadowPower: 1
     - _Shiny_Factor: 5
     - _Smoothness: 1000
