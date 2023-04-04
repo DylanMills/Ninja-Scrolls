@@ -24,6 +24,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _ENVIRONMENTREFLECTIONS_OFF
+  - _SPECULARHIGHLIGHTS_OFF
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -220,7 +222,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _EnableHeightBlend: 0
     - _EnableInstancedPerPixelNormal: 1
-    - _EnvironmentReflections: 1
+    - _EnvironmentReflections: 0
     - _Falloff_Amount: 0.05
     - _GRADIENTONOFF: 0
     - _GlossMapScale: 1
@@ -265,7 +267,7 @@ Material:
     - _SnowNoiseOnOff: 1
     - _SnowNoiseScale: 87.23351
     - _SpecSource: 0
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SpecularIntensity: 0.8
     - _SquashAmount: 1
     - _SrcBlend: 5

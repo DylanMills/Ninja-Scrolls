@@ -23,20 +23,24 @@ and I used a modified grass prefab brush to flesh out the organic feel of the ma
 - Brick house via normal mapping
 ![Brick](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/brick.png)
 - Rough pavement, sidewalk, and roofing via normal mapping
+![Normal](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/normal.png)
+
 
 
 
 ## Visual-Effects
 - I added wisps particles floating around the scene.
+![Particles](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/particles.png)
 - Chalk decals on pavement
+![Decal](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/decal.png)
 - Cel Shading via shadergraphs
 ![Cel-Shader](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/cel-shader.png)
 - Windows, with highly reflective material
 ![Cel-Shader](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/window.png)
-
-
 - Glowing Grass via additive transparency
+![Grass](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/grass.png)
 - Shadows
+![Shadows](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/shadows.png)
 
 ## Color-Correction
 - When I tried implementing the color-correction using the LUTs and Shaders,
@@ -50,6 +54,7 @@ I struggled to find a good way of implementing it into my URP scene.
 ![Red-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/red-post.png)
 ![Neon-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/neon-post.png)
 ![Night-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/night-post.png)
+
 
 
 
