@@ -19,22 +19,39 @@ and I used a modified grass prefab brush to flesh out the organic feel of the ma
 ## Texturing
 - Added Texturing to all main materials
 - Steko House Texture via Normal Mapping
+![Steko](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/steko.png)
 - Brick house via normal mapping
+![Brick](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/brick.png)
 - Rough pavement, sidewalk, and roofing via normal mapping
 
-## Color-Correction
-- When I tried implementing the post-processing using the LUTs and Shader,
-I struggled to find a good way of implementing it into my URP scene.
-- I decided to use an alternative method which uses the Volume Component where I could modify all the values in the inspector.
-- I have three main color profiles, Cool, Warm, and Neon
+
 
 ## Visual-Effects
 - I added wisps particles floating around the scene.
 - Chalk decals on pavement
 - Cel Shading via shadergraphs
+![Cel-Shader](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/cel-shader.png)
 - Windows, with highly reflective material
+![Cel-Shader](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/window.png)
+
+
 - Glowing Grass via additive transparency
 - Shadows
+
+## Color-Correction
+- When I tried implementing the color-correction using the LUTs and Shaders,
+I struggled to find a good way of implementing it into my URP scene.
+- I decided to use an alternative method which uses the Volume Component where I could modify all the values in the inspector.
+- I decided to implement all of my postprocessing effects using the URP Volume Profiles as it allows for easier adjustment while also being more optimized
+- I have three main color profiles, Cool, Warm, and Neon
+![No-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/no-post.png)
+![Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/post.png)
+![Blue-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/cool-post.png)
+![Red-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/red-post.png)
+![Neon-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/neon-post.png)
+![Night-Post](https://raw.githubusercontent.com/DylanMills/Ninja-Scrolls/main/Screenshots/night-post.png)
+
+
 
 ## Post-Processing-Effects
 - Color Correction

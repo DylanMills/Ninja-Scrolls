@@ -54,7 +54,7 @@ Material:
     - _QueueOffset: 0
     - _Shiny_Factor: 100
     - _Smoothness: 1000
-    - _SpecularIntensity: 0.5
+    - _SpecularIntensity: 0.1
     - _Tiling: 20
     m_Colors:
     - _Ambient_Color: {r: 0.33962262, g: 0.32497224, b: 0, a: 0}
